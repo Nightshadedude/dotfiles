@@ -2,11 +2,17 @@ source ~/.zplug/init.zsh
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/.cargo/bin:$PATH  
+export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/nightshadedude/.oh-my-zsh"
+
+#enable CLI Colors
+export CLICOLOR=1
+
+#alias for auto ls coloring
+alias ls="ls --color=auto"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -105,7 +111,10 @@ export ZSH="/home/nightshadedude/.oh-my-zsh"
 
 ###################### ZPlug Section ######################
 #Theme
-zplug "dracula/zsh",    as:theme
+#zplug "dracula/zsh",           as:theme
+#zplug "ouuan/omuse-zsh-theme", as:theme
+#zplug "themes/amuse",  as:theme,       from:oh-my-zsh
+zplug "grantbuster/buster_zsh_theme",   as:theme
 
 #Plugins
 zplug "plugins/git",    from:oh-my-zsh
