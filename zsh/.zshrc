@@ -117,9 +117,9 @@ alias ls="ls --color=auto"
 zplug "grantbuster/buster_zsh_theme",   as:theme
 
 #Plugins
-zplug "plugins/git",    from:oh-my-zsh
-zplug "plugins/rust",   from:oh-my-zsh
-zplug "plugins/golang", from:oh-my-zsh
+zplug "plugins/git",            from:oh-my-zsh
+zplug "plugins/rust",           from:oh-my-zsh
+zplug "plugins/golang",         from:oh-my-zsh
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
