@@ -1,1 +1,3 @@
-vim.cmd.colorscheme 'desert'
+#setup lazy.nvim
+require("config.lazy")
+
