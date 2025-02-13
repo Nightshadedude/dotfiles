@@ -7,7 +7,7 @@ return {
 		priority = 1000, -- high priority to start before other plugins
 		opts = {},
 		vim.cmd("colorscheme tokyonight"),
-	--},
+	},
 	--{
 	--  "folke/tokyonight.nvim",
 	--  lazy = false,
