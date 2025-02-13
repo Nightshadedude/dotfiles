@@ -8,4 +8,10 @@ return {
 	--	opts = {},
 	--	vim.cmd("colorscheme tokyonight"),
 	--},
+	{
+	  "folke/tokyonight.nvim",
+	  lazy = false,
+	  priority = 1000,
+	  opts = {},
+	}
 }
